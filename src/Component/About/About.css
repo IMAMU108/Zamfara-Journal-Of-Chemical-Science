@@ -1,0 +1,23 @@
+.about .about-content {
+  padding: 60px 0;
+  background-color: var(--white);
+}
+
+.about .about-article {
+  margin-bottom: 40px;
+}
+
+.about .about-article h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.about .scope-list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about .scope-list li {
+  margin-bottom: 10px;
+}

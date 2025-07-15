@@ -1,0 +1,108 @@
+.contact .contact-content {
+  padding: 60px 0;
+  background-color: var(--white);
+}
+
+.contact .contact-methods {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.contact .contact-card {
+  background-color: var(--light-color);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contact .contact-icon {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.contact .contact-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.contact .contact-card p,
+.contact .contact-card address {
+  margin-bottom: 10px;
+  color: var(--text-light);
+}
+
+.contact .contact-card a {
+  color: var(--secondary-color);
+}
+
+.contact .contact-form-section {
+  max-width: 800px;
+  margin: 0 auto 50px;
+}
+
+.contact .contact-form-section h3 {
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.contact .contact-form {
+  background-color: var(--light-color);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.contact .form-group {
+  margin-bottom: 20px;
+}
+
+.contact .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.contact .form-group input,
+.contact .form-group select,
+.contact .form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid var(--light-gray);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact .form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.contact .editorial-office-hours {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact .editorial-office-hours h3 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.contact .editorial-office-hours p {
+  margin-bottom: 15px;
+  color: var(--text-light);
+}
+
+@media (max-width: 768px) {
+  .contact .contact-methods {
+    grid-template-columns: 1fr;
+  }
+}

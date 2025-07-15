@@ -1,0 +1,190 @@
+.home .hero {
+  background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.home .hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home .hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+.home .latest-issue {
+  padding: 60px 0;
+  background-color: var(--white);
+}
+
+.home .latest-issue h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.home .issue-container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.home .issue-cover {
+  flex: 1;
+  text-align: center;
+}
+
+.home .issue-cover img {
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.home .issue-contents {
+  flex: 2;
+}
+
+.home .issue-contents h3 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.home .issue-contents ul {
+  list-style: none;
+}
+
+.home .issue-contents ul li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.home .issue-contents ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.home .issue-contents ul li a {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.home .issue-contents ul li a:hover {
+  color: var(--secondary-color);
+}
+
+.home .features {
+  padding: 60px 0;
+  background-color: var(--light-color);
+}
+
+.home .features .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.home .feature-box {
+  flex: 1;
+  min-width: 250px;
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.home .feature-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.home .feature-icon {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.home .feature-box h3 {
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.home .announcements {
+  padding: 60px 0;
+  background-color: var(--white);
+}
+
+.home .announcements h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.home .announcements-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.home .announcement-card {
+  flex: 1;
+  min-width: 300px;
+  background-color: var(--light-color);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.home .announcement-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.home .announcement-card p {
+  margin-bottom: 20px;
+  color: var(--text-light);
+}
+
+@media (max-width: 992px) {
+  .home .issue-container {
+    flex-direction: column;
+  }
+  
+  .home .issue-cover {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .hero h2 {
+    font-size: 2rem;
+  }
+  
+  .home .hero p {
+    font-size: 1rem;
+  }
+  
+  .home .feature-box {
+    min-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .home .feature-box:last-child {
+    margin-bottom: 0;
+  }
+}
