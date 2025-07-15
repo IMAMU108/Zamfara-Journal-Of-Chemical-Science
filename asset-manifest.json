@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/IMAMU108/Zamfara-Journal-Of-Chemical-Science/static/css/main.aeaf2752.css",
+    "main.js": "/IMAMU108/Zamfara-Journal-Of-Chemical-Science/static/js/main.d8009c5a.js",
+    "static/js/453.9e573978.chunk.js": "/IMAMU108/Zamfara-Journal-Of-Chemical-Science/static/js/453.9e573978.chunk.js",
+    "index.html": "/IMAMU108/Zamfara-Journal-Of-Chemical-Science/index.html",
+    "main.aeaf2752.css.map": "/IMAMU108/Zamfara-Journal-Of-Chemical-Science/static/css/main.aeaf2752.css.map",
+    "main.d8009c5a.js.map": "/IMAMU108/Zamfara-Journal-Of-Chemical-Science/static/js/main.d8009c5a.js.map",
+    "453.9e573978.chunk.js.map": "/IMAMU108/Zamfara-Journal-Of-Chemical-Science/static/js/453.9e573978.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aeaf2752.css",
+    "static/js/main.d8009c5a.js"
+  ]
+}
