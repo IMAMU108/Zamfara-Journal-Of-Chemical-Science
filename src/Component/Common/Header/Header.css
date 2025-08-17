@@ -97,5 +97,9 @@
   
   .mobile-menu {
     display: block;
+    margin-right: 8px;
+  }
+  .logo{
+    margin-left: 5px;
   }
 }

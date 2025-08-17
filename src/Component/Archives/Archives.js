@@ -96,37 +96,16 @@ const Archives = () => {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
-              <button>FaSearch</button>
+              <button><FaSearch /></button>
             </div>
             <div className="filter-options">
-              <select>
-                <option>Filter by Year</option>
-                {years.map((yearData, index) => (
-                  <option key={index}>{yearData.year}</option>
-                ))}
-              </select>
-              <select>
-                <option>Filter by Volume</option>
-                {years.flatMap(yearData => 
-                  yearData.issues.map((issue, i) => (
-                    <option key={`${yearData.year}-${i}`}>{issue.volume}</option>
-                  ))
-                )}
-              </select>
-              <select>
-                <option>Filter by Topic</option>
-                <option>Climate Change</option>
-                <option>Renewable Energy</option>
-                <option>Sustainable Agriculture</option>
-                <option>Biodiversity</option>
-                <option>Circular Economy</option>
-              </select>
+       
             </div>
           </div>
           
           {years.map((yearData, yearIndex) => (
             <div className="archive-years" key={yearIndex}>
-              <h3>{yearData.year}</h3>
+              {/* <h3>{yearData.year}</h3> */}
               {yearData.issues.filter(filterIssues).map((issue, issueIndex) => (
                 <div className="issue" key={issueIndex}>
                   <div className="issue-info">
@@ -154,7 +133,7 @@ const Archives = () => {
             <a href="#">3</a>
             <a href="#">4</a>
             <a href="#">5</a>
-            {/* <a href="#"><FaAngleRight /></a> */}
+            <a href="#"><FaAngleRight /></a>
           </div>
         </div>
       </section>
