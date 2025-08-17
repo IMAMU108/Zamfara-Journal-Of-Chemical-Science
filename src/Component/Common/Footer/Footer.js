@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-section">
           <h4>About IJSGS</h4>
-          <p>The International Journal of Science for Global Sustainability is a peer-reviewed, open-access journal dedicated to publishing high-quality research that addresses global sustainability challenges.</p>
+          <p>The Zamfara Journal of Science for Global Sustainability is a peer-reviewed, open-access journal dedicated to publishing high-quality research that addresses global sustainability challenges.</p>
         </div>
         <div className="footer-section">
           <h4>Quick Links</h4>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        <p>&copy; 2023 International Journal of Science for Global Sustainability. All Rights Reserved.</p>
+        <p>&copy; 2025 Zamfara Journal of Science for Global Sustainability. All Rights Reserved.</p>
       </div>
     </footer>
   );
